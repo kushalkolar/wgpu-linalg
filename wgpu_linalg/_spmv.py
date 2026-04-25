@@ -10,7 +10,7 @@ from fastplotlib.graphics.features import TextureArray
 
 
 _WGSL_PATH = Path(__file__).with_name("spmv_csr.wgsl")
-_WORKGROUP_SIZE = 512
+_WORKGROUP_SIZE = 64
 
 
 """
